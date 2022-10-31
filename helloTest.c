@@ -1,5 +1,4 @@
 #define _DEFAULT_SOURCE
-#define __STDC_WANT_LIB_EXT1__ 1
 #include <stdio.h>
 #include <string.h>
 #define BUFSIZE 100
