@@ -1,3 +1,5 @@
+#define _DEFAULT_SOURCE
+#define __STDC_WANT_LIB_EXT1__ 1
 #include <stdio.h>
 #include <string.h>
 #define BUFSIZE 100
@@ -20,7 +22,7 @@ int main(void) {
             fprintf(stderr,"Error: input exceeded %d bytes\n",BUFSIZE);
             return -1;
         }
-        strlcpy(buf+bytesRead,line,BUFSIZE - bytesRead);
+        strncpy(buf+bytesRead,line,BUFSIZE - bytesRead);
         bytesRead += strlen(line);
     }
     if (pclose(fp) != 0) {
