@@ -29,7 +29,7 @@ int main(void) {
         return -1;
     }
     printf("buffer: %s\n",buf);
-    if (strncmp("Hello, World!\n",buf,BUFSIZE) == 0) {
+    if (strncmp("Hello World!\n",buf,BUFSIZE) == 0) {
         printf("Hello World: SUCCESS\n");
         return 0;
     } else {
