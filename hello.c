@@ -1,14 +1,14 @@
 
-/* CS111 Lab 1
+/* CS111 Hello World starter lab
  *
- * 1) git clone git@github.com:darrellroot/cs111.git
- * 2) Edit hello.c and make it output "Hello World\n" *exactly*
- * 3) git commit
+ * Edit hello.c (this file) to output "Hello World!\n" *exactly*
+ * Then test and submit your assignment
  * 
- * Then submit a pull request
+ * The solution is provided commented out, to make it easy for you to learn the procedure
+ *
  */
 
 //#include <stdio.h>
 //int main(void) {
-//	printf("Hello, World!\n");
+//	printf("Hello World!\n");
 //}
